@@ -1,0 +1,608 @@
+html {
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    scroll-behavior: smooth;
+}
+body {
+    margin-left: 0%;
+    margin-right: 0%;
+    background-image: url('https://technologywithpurpose.org/wp-content/uploads/2022/11/twp-home.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+  }
+
+div#header{
+    background-color: white;
+    top: 0px;
+    font-size: 95%;
+    border-bottom: 1px solid gray; 
+    display: flex; 
+    padding: 0px 25em; 
+    justify-content: space-between;
+    position: fixed;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+div#header-left{
+    margin: 18px 0px 18px 0px;
+}
+
+div#header-right{
+    display: flex; 
+    align-items: center;
+    margin-right:50em;
+   
+}
+div#n{
+    margin-right: 2em;
+
+}
+div#p{
+    margin-right: 2em;
+
+}
+div#c{
+    margin-right: 2em;
+
+}
+div#a{
+    margin-right: 2em;
+
+}
+div#co{
+    margin-right: 2em;
+
+}
+
+#instagram-icon{
+    margin-left: 2em;
+
+}
+#instagram-icon:hover{
+    cursor: pointer;
+}
+
+#linkedin-icon{
+    margin-left: 1em;
+
+}
+#linkedin-icon:hover{
+    cursor: pointer;
+    color:#6b53f0!important;
+}
+
+div#n:hover{
+    cursor: pointer;
+    color: #6b53f0;
+}
+div#p:hover{
+    cursor: pointer;
+    color: #6b53f0;
+}
+div#c:hover{
+    cursor: pointer;
+    color: #6b53f0;
+}
+div#a:hover{
+    cursor: pointer;
+    color: #6b53f0;
+}
+div#co:hover{
+    cursor: pointer;
+    color: #6b53f0;
+}
+
+
+div#introduction{ 
+    background-color: white;
+    height: auto;
+    margin: 0px;
+    padding-top: 140px;
+    margin-bottom: 0px;
+    padding-right: 30px;
+    padding-bottom: 70px;
+    padding-left: 30px;
+}
+
+div#introduction-text{
+    padding-left: 28em;
+    padding-right: 28em;
+}
+h1 {  
+    font-size: 1em;
+    font: 28px Inter, Arial, Helvetica, sans-serif;
+    font-weight:600;
+    display: block;
+    max-width: 1248px;
+    margin-left: 8.5em;
+    margin-right: 8.5em;
+    padding-top: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: #201b24;
+}
+
+button.redondo-nav {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 9px 18px;
+    line-height: 1;
+    width: auto;
+    font-size: 1em;
+    margin-right: 10px;
+    margin-left: 10px;
+    
+}
+button.redondo-nav:hover{
+    cursor: pointer;
+    color: white;
+    background-color: black;
+}
+button.redondo-contact {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 9px 18px;
+    line-height: 1;
+    width: auto;
+    font-size: 1em;
+    margin-right: 10px;
+    margin-left: 10px;
+    
+    
+}
+button.redondo-contact:hover{
+    cursor: pointer;
+    color: white;
+    background-color: black;
+}
+button.redondo-sumate {
+    color: #6b53f0;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 25px;
+    border-color: #6b53f0;
+    padding: 9px 18px;
+    line-height: 1;
+    width: 1auto;
+    font-size: 1em;
+    margin-right: 10px;
+    margin-left: 10px;
+    
+}
+button.redondo-sumate:hover{
+    cursor: pointer;
+    color: white;
+    background-color: #6b53f0;
+}
+div#introduction-actions {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+div#box-black {
+    width: auto;
+    height: 400px;
+    background-color: #201b24;
+    color: white;
+    position: relative;
+    z-index: -1;
+  }
+  
+div#box-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+  
+a#titulo-impacto {
+    font-size: 32px;
+    background-color: #201b24;
+    color: white;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+  
+div#caja-texto {
+    text-align: left;
+    padding-top: 7%;
+    font-size: 15px;
+    width: 20%;
+    margin-left: 32em;
+}
+  
+div#caja-texto p {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+  
+  
+
+#box-black {
+    position: relative;
+}
+  
+#caja-texto-datos {
+    position: absolute;
+    top: 140px; 
+    right: 35em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 1em;
+}
+  
+.dato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 3em;
+}
+  
+.dato .numero {
+    font-size: 32px;
+    font-weight: bold;
+    width: max-content;
+    text-align: center;
+}
+  
+.dato .etiqueta {
+    font-size: 14px;
+    width: max-content;
+    text-align: center;
+}
+.dato .separador {
+    font-size: 30px;
+    margin-top: -15px; 
+}
+  
+.dato:nth-child(1) .numero {
+    font-size: 48px;
+}
+  
+.dato:nth-child(2) .numero{
+    font-size: 48px;
+    display: flex;
+}
+.separador-izquierda {
+    color: #6b53f0;
+    position: absolute;
+    left:3.4em; 
+    top: 60%;
+    transform: translateY(-50%);
+}
+ 
+  
+  
+.dato:nth-child(3) .numero {
+    font-size: 48px;
+}
+  
+.titulo-impacto {
+    font-size: 32px;
+}
+  
+#caja-texto-datos > .dato:nth-child(2) {
+    align-self: flex-start;
+}
+  
+  
+  
+#box-transparent{
+    width: auto;
+    height: 900px;
+}
+
+
+
+
+
+
+
+
+#box-white{
+  width: auto;
+  height: 2200px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h1#title2{
+ margin-right: 39em;
+ margin-top: 18em;
+}
+
+div#box-img-description {
+ display: flex;
+ margin-top: -10%;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+}
+
+.image-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+  
+#imagenTitle-xacademy {
+    margin-left: 10em;
+    margin-bottom: 5%;
+}
+  
+.img_ajustes {
+   width: 30%;
+}
+
+.img_ajuste {
+    margin-left: 32em;
+    width: 30%;
+    border-radius: 0px 35px 0px 35px;
+}
+
+p#text-xacademy{
+    width: 50%;
+}
+
+button.redondo-mas{
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 9px 18px;
+    line-height: 1;
+    width: auto;
+    font-size: 1em;
+    margin-right: 45em;
+    margin-left: 0px;
+    margin-top: 1em;
+}
+
+button.redondo-mas:hover{
+    cursor: pointer;
+    color: white;
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+div#box-img-description2 {
+  display: flex;
+  
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.image-container2 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  
+}
+
+#imagenTitle-xacademy2 {
+  margin-right: 2em;
+  width: 30%;
+}
+
+.img_ajuste2 {
+  margin-right: 20em;
+  width:30%;
+  border-radius: 0px 35px 0px 35px;
+}
+
+button.redondo-mas {
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 25px;
+  padding: 9px 18px;
+  line-height: 1;
+  width: auto;
+  font-size: 1em;
+  margin-left: 0px;
+  margin-right: 10em;
+  margin-top: 1em;
+}
+
+button.redondo-mas:hover {
+  cursor: pointer;
+  color: white;
+  background-color: black;
+}
+
+
+
+
+
+h1#title3{
+    margin-right: 37em;
+    margin-top: 5em;
+    margin-bottom: -2em;
+}
+   
+div#box-img-description3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+   
+.image-container3 {
+       display: flex;
+       align-items: center;
+       justify-content: flex-start;
+       margin-bottom: 60px;
+}
+     
+#imagenTitle-xacademy3 {
+    margin-left: 10em;
+    margin-bottom: 6%;
+    margin-top: 11em;
+}
+     
+.img_ajustes3 {
+      width: 30%;
+}
+   
+.img_ajuste3 {
+       margin-left: 32em;
+       width: 30%;
+       border-radius: 0px 35px 0px 35px;
+}
+   
+p#text-xacademy3{
+       width: 50%;
+}
+   
+button.redondo-mas3{
+       background-color: white;
+       border: 2px solid black;
+       border-radius: 25px;
+       padding: 9px 18px;
+       line-height: 1;
+       width: auto;
+       font-size: 1em;
+       margin-right: 45em;
+       margin-left: 0px;
+       margin-top: 3em;
+}
+   
+   button.redondo-mas:hover{
+       cursor: pointer;
+       color: white;
+       background-color: black;
+}
+
+
+
+
+
+
+div#box-img-description4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .image-container4 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+  }
+  
+  #imagenTitle-xacademy4 {
+    margin-right: 2em;
+    width: 30%;
+  }
+  
+  .img_ajuste4 {
+    margin-right: 20em;
+    width:30%;
+    border-radius: 0px 35px 0px 35px;
+  }
+  
+  button.redondo-mas {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 9px 18px;
+    line-height: 1;
+    width: auto;
+    font-size: 1em;
+    margin-left: 0px;
+    margin-right: 10em;
+    margin-top: 1em;
+  }
+  
+  button.redondo-mas:hover {
+    cursor: pointer;
+    color: white;
+    background-color: black;
+  }
+  
+  
+
+
+
+
+
+
+#background-image{
+    background-image: url(https://technologywithpurpose.org/wp-content/uploads/2022/11/twp-home.jpg);
+    width: 1907px;
+}
+
+
+
+div#box-prefooter{
+    width: 100%;
+    height: 400px;
+    margin-top: 5em;
+    background-color: #f4f4f5;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-width: 0px 0px 0px 0px;
+    border-color: var(--awb-color3);
+    border-style: solid;
+}
+
+h1#title5{
+    margin-right: 40em;
+    margin-top: 2em;
+    margin-bottom: -2em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (min-width: 894px) and (max-width: 1000px){
+html{    
+    font-size: 12px;
+}
+}
+
+@media all and (min-width: 770px) and (max-width: 894px){
+    html{    
+        font-size: 9px;
+    }
+    }

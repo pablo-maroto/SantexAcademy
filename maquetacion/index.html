@@ -5,52 +5,130 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Xacademy Clase 1 maquetacion</title>
-    <style>
-        body {
-            margin: 0;
-        }
-        p {
-            margin-right: 40px;
-        }
-        h1 {
-            margin: 0px 400px;
-            text-align: center;
-        }
-        button.redondo {
-            background-color: white;
-            border: 1px solid black;
-            border-radius: 25px;
-            padding: 0px 20px;
-            height: 32px;
-        }
-        div#introduction-actions {
-            display: flex;
-            justify-content: center;
-        }
-    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="header" style="border-bottom: 1px solid gray; display: flex; padding: 10px 100px; justify-content: space-between">
+    <div id="header">
         <div id="header-left">
-            <img src="logo.svg">
+            <img id="img-nav" src="logo.svg">
         </div>
-        <div id="header-right" style="display: flex; align-items: center;">
-            <p>Nosotros</p>
-            <p>Programas</p>
-            <p>Capaciontaciones</p>
-            <p>Alianzas</p>
-            <p>Contacto</p>
-            <button class="redondo">Sumate +</button>
+        <div id="header-right">
+            <div id="n">Nosotros</div>
+            <div id="p">Programas</div>
+            <div id="c">Capacitaciones</div>
+            <div id="a">Alianzas</div>
+            <div id="co">Contacto</div>
+            <button class="redondo-nav">Sumate +</button>
+            <img id="instagram-icon" width="14" height="14" src="icons/instagram.svg" alt="insta">
+            <img id="linkedin-icon" width="16" height="16" src="icons/icons8-linkedin.svg" alt="linke">
         </div>
     </div>
-    <div id="introduction" style="padding: 48px;">
+    <div id="background-image" >
+
+    </div>
+    <div id="introduction">
         <div id="introduction-text">
             <h1>Somos una Fundación dedicada a mejorar la calidad de vida de las personas y su entorno, a través de la tecnología.</h1>
         </div>
-        <div id="introduction-actions" style="margin-top: 25px;">
-            <button class="redondo">Contactanos -></button>
-            <button class="redondo" style="margin-left: 14px;">Sumate +</button>
+        <div id="introduction-actions">
+            <button class="redondo-contact">Contactanos -></button>
+            <button class="redondo-sumate">Sumate +</button>
         </div>
     </div>
+    <div id="box-black">
+        <div id="caja-texto">
+            <div class="titulo-impacto">.Impacto</div>
+            <p>Buscamos construir alianzas y fortalecer vínculos para generar una transformación real en la comunidad. Trabajamos para acercar la tecnología innovadora y disruptiva del sector privado hacia el sector social.</p>
+            <div id="caja-texto-datos">
+                <div class="dato">
+                    <div class="numero large">58</div>
+                    <div class="etiqueta">Localidades</div>
+                </div>
+                <div class="dato">
+                    <div class="separador separador-izquierda">+</div>
+                    <div class="numero">50</div>
+                    <div class="etiqueta">Mentores</div>
+                </div>
+                <div class="dato">
+                    <div class="numero large">301</div>
+                    <div class="etiqueta">Participantes</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="box-transparent">
+        
+    </div>
+    <div id="box-white">
+        <div id="box-img-description">
+            <h1 id="title2">.Programas</h1>
+            <div class="image-container">
+                <img class="img_ajuste" src="https://technologywithpurpose.org/wp-content/uploads/2022/11/xacademy-01-1200x800.jpg" alt="imagen-xacademy">
+                <div id="imagenTitle-xacademy">
+                    <img class="img_ajustes" src="https://technologywithpurpose.org/wp-content/uploads/2022/10/xacademy.svg" alt="title-xacademy">
+                    <p id="text-xacademy">xAcademy es un programa de formación en tecnología llevado adelante por la Fundación Tecnología con Propósito junto a Santex que busca promover un cambio positivo en la comunidad a través de la educación en IT, apuntando a lograr la inserción laboral de personas en el mundo tecnológico.</p>
+                <div id="introduction-actions1">
+                    <button class="redondo-mas">Más info -></button>
+                </div>
+            </div>
+        </div>
+
+        <div id="box-img-description2">
+            <div class="image-container2">
+              <div id="imagenTitle-xacademy2">
+                <h2 id="title2">Robótica educativa: la tecnología del futuro</h2>
+                <p id="text-xacademy2">Durante el curso, los alumnos y alumnas a través de la robótica desarrollan la curiosidad, el autodidactismo y las habilidades blandas necesarias para afrontar la revolución tecnológica del siglo XXI.</p>
+                <div id="introduction-actions2">
+                  <button class="redondo-mas">Más info -></button>
+                </div>
+              </div>
+              <img class="img_ajuste2" src="https://technologywithpurpose.org/wp-content/uploads/2022/11/robotica-educativa-07-1200x800.jpg" alt="imagen-xacademy2">
+            </div>
+          </div>
+          
+
+          <div id="box-img-description3">
+            <h1 id="title3">.Capacitaciones</h1>
+            <div class="image-container3">
+                <img class="img_ajuste3" src="https://technologywithpurpose.org/wp-content/uploads/2022/11/estafas-virtuales-04-1200x905.jpg" alt="imagen-xacademy">
+                <div id="imagenTitle-xacademy3">
+                    <h2 id="title3">Estafas virtuales: ¿cómo protegernos?</h2>
+                    <p id="text-xacademy3">Los canales de comunicación a través de medios digitales cobraron gran protagonismo a partir de la pandemia. Al mismo tiempo, se perfeccionan cada vez más rápido las modalidades de estafas y fraudes virtuales. En esta capacitación vas a aprender diferentes tips y consejos útiles para navegar de manera más segura.</p>
+                <div id="introduction-actions3">
+                    <button class="redondo-mas3">Más info -></button>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="box-img-description4">
+            <div class="image-container4">
+              <div id="imagenTitle-xacademy4">
+                <h2 id="title4">Seguridad informática para infancias</h2>
+                <p id="text-xacademy4">¿Navegamos seguros en internet? La propuesta es una charla para niños y niñas donde se brindan herramientas de seguridad y autocuidado digital.</p>
+                <div id="introduction-actions4">
+                  <button class="redondo-mas">Más info -></button>
+                </div>
+              </div>
+              <img class="img_ajuste4" src="https://technologywithpurpose.org/wp-content/uploads/2022/10/seguridad-informatica-para-infancias-600x398.jpg" alt="imagen-xacademy2">
+            </div>
+          </div>
+          
+          <div id="box-prefooter">
+                <h1 id="title5" >.Equipo</h1>
+
+
+                
+        </div>
+        
+    </div>
+   
+
+
+    
 </body>
 </html>
